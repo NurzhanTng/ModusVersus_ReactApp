@@ -1,21 +1,31 @@
 import React from 'react';
 import {Link} from "react-router-dom";
+import SearchImage from '../img/Search.png'
+import Logo from './General/Logo'
+import '../css/Header.css'
 
-function NavBar() {
+function Header() {
     return (
-        <div className='nav'>
-            <div className="logo nav__logo">
-                <p className="logo__upper-text">Modus</p>
-                versus
+        <div className='header'>
+            <div className="container">
+                <div className="header__inner">
+                    <Logo />
+                    <ul className='nav'>
+                        <li className='nav__link'><Link to='/'>Home</Link></li>
+                        <li className='nav__link'><Link to='/about'>About</Link></li>
+                        <li className='nav__link'><Link to='/services'>Services</Link></li>
+                        <li className='nav__link'><Link to='/portfolio'>Portfolio</Link></li>
+                        <li className='nav__link'><Link to='/blog'>Blog</Link></li>
+                        <li className='nav__link'><Link to='/feature'>Feature</Link></li>
+                        <li className='nav__link'><Link to='/contacts'>Contacts</Link></li>
+                        <li className='nav__link nav__icon-link'>
+                            <img className='nav__img' src={SearchImage} alt="" width='16px' height='16px' />
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <ul>
-                <li><Link to='/'>Home</Link></li>
-                <li><Link to='/about'>About</Link></li>
-                <li><Link to='/projects'>Projects</Link></li>
-                <li><Link to='/contacts'>Contacts</Link></li>
-            </ul>
         </div>
     );
 }
 
-export default NavBar;
+export default Header;

@@ -1,8 +1,8 @@
 import React from 'react'
-import '../../../css/General/Sections/ClientSection.css'
+import '../../../css/General/Sections/ThirdSection.css'
 import Clients from "../Clients";
 
-function ClientsSection() {
+function ThirdSection() {
     return (
         <div className="clients-section">
             <div className="container">
@@ -16,4 +16,4 @@ function ClientsSection() {
     );
 }
 
-export default ClientsSection;
+export default ThirdSection;

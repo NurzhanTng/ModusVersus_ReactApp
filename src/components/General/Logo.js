@@ -1,4 +1,5 @@
 import React from "react";
+import '../../css/General/Logo.css'
 
 function Logo(props) {
     return (

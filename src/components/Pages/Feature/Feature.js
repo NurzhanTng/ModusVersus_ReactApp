@@ -1,10 +1,16 @@
 import React from 'react'
-import Test from '../../Test'
+import '../../../css/Pages/Feature.css'
+import PageHeader from "../../General/PageHeader";
+import News from "./News";
 
 function Feature() {
     return (
-        <Test str='Feature'/>
+        <div className="feature">
+            <PageHeader text='Portfolio' />
+            <News />
+        </div>
     );
 }
+
 
 export default Feature;

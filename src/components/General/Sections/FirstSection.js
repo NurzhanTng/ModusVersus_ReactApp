@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../css/General/FirstSection.css'
+import '../../../css/General/Sections/FirstSection.css'
 
 function FirstSection(props) {
     return (

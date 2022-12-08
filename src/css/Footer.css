@@ -1,0 +1,147 @@
+.footer__inner1 {
+    padding: 47px 0;
+    height: 218px;
+
+    background-color: #76c7c0;
+    background-image: url("../img/Path2.png");
+    background-repeat: repeat-x;
+    background-position: top;
+}
+
+.footer__inner1 .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.company-info {
+    width: 370px;
+}
+
+.company-info__text, .company-info__contact-title {
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.company-info__text {
+    margin-top: 20px;
+    margin-bottom: 24px;
+    line-height: 1.8;
+}
+
+.company-info__contact {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 16px;
+}
+
+.company-info__contact-title {
+    margin-right: 20px;
+    padding-bottom: 1px;
+}
+
+.company-info__contact-data {
+    font-weight: 600;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.links__title {
+    margin-bottom: 30px;
+
+    font-weight: 800;
+    font-size: 20px;
+    color: #4b7e79;
+}
+
+.link {
+    margin-bottom: 7px;
+    margin-left: 38px;
+    position: relative;
+
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.link::before {
+    content: '';
+    height: 4px;
+    width: 4px;
+
+    position: absolute;
+    top: 7px;
+    left: -16px;
+    z-index: 2;
+
+    border-left: 1px solid #f6f6f6;
+    border-bottom: 1px solid #f6f6f6;
+
+    rotate: 225deg;
+}
+
+.from-blog {
+    width: 370px;
+}
+
+.from-blog__title {
+    margin-bottom: 32px;
+
+    font-weight: 400;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.from-blog__title_bold {
+    margin-left: 3px;
+    font-style: normal;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.from-blog__item {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.from-blog__img {
+    background-color: #5e9f9a;
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+}
+
+.from-blog__text, .from-blog__time {
+    width: 280px;
+
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.from-blog__text {
+    margin-top: -4px;
+}
+
+.from-blog__time {
+    color: #4a7c78;
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer__inner2 {
+    padding: 22px 0 18px;
+    background-color: #6ab3ac;
+}
+
+.footer__copyright {
+    font-weight: 400;
+    font-size: 12px;
+}

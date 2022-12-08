@@ -1,9 +1,24 @@
 import React from 'react'
-import Test from "../Test";
+import '../../../css/Pages/Home.css'
+import IntroSection from "./IntroSection";
+import ServicesSection from "./ServicesSection";
+import AboutSection from "./AboutSection";
+import Clients from "../../General/Clients";
 
 function Home() {
     return (
-        <Test str='Welcome to my Website!' />
+        <div className='home'>
+
+            <IntroSection />
+            <ServicesSection />
+            <AboutSection />
+
+            <div className='clients-section'>
+                <div className="container">
+                    <Clients />
+                </div>
+            </div>
+        </div>
     );
 }
 

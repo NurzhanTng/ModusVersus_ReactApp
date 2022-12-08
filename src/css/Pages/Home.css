@@ -1,0 +1,90 @@
+/* Home page */
+
+.home {
+
+}
+
+/* Intro section */
+
+.intro-section {
+    margin: 550px 0 440px;
+}
+
+.intro-section-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 23px 30px;
+
+    background-color: #ececec;
+    border-radius: 5px;
+}
+
+.intro-section__title {
+    margin-bottom: 7px;
+
+    font-weight: 600;
+    font-size: 30px;
+    color: #7f8c8c;
+}
+
+.intro-section__text {
+    font-weight: 400;
+    font-size: 13px;
+    color: #777;
+}
+
+/* About section */
+
+.about-section__wrapper {
+    background-image: url("../../img/Path3.png");
+    background-repeat: repeat-x;
+    background-position: top;
+}
+
+.about-section__inner1 {
+    position: relative;
+    text-align: center;
+}
+
+.about-section__inner2 {
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-section__wrapper {
+    padding: 70px;
+    margin-bottom: 210px;
+    background-color: #ececec;
+}
+
+.about-section__title {
+    margin-bottom: 10px;
+
+    font-weight: 600;
+    font-size: 40px;
+    color: #e1524b;
+}
+
+.about-section__text {
+    padding-bottom: 200px;
+
+    font-weight: 400;
+    font-size: 13px;
+    color: #777;
+}
+
+.about-section__image {
+    position: absolute;
+    bottom: -230px;
+    left: 50%;
+    z-index: 2;
+    transform: translate3d(-50%, 0, 0);
+}
+
+/* Clients (slider) */
+
+.clients-section {
+    margin-bottom: 50px;
+}

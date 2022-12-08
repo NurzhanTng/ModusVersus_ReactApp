@@ -1,5 +1,6 @@
 import React from "react";
-import SkillsImg from '../../../../img/Skills.png'
+import SkillsImg from '../../img/Skills.png'
+import '../../css/General/Skills.css'
 
 function Skills() {
     return (

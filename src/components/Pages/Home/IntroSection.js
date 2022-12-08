@@ -1,14 +1,20 @@
 import React from 'react'
-import Button from "../../Button/Button";
+import Button from "../../General/Button";
 
-function TopServiceSection() {
+function IntroSection() {
     return (
-        <div className="top-service-section">
-            <h3 className="top-service-section__title">Some of our top services</h3>
-            <p className="top-service-section__text">Ut eleifend libero sed neque rhoncus consequat. Maecenas tincidunt, augue et rutrum condimentum, libero lectus mattis orci, ut commodo.</p>
-            <Button text='view more'/>
+        <div className="intro-section section">
+            <div className="container">
+                <div className="intro-section-inner">
+                    <div className="wrapper">
+                        <h3 className="intro-section__title">Some of our top services</h3>
+                        <p className="intro-section__text">Ut eleifend libero sed neque rhoncus consequat. Maecenas tincidunt, augue et rutrum condimentum, libero lectus mattis orci, ut commodo.</p>
+                    </div>
+                    <Button text='view more'/>
+                </div>
+            </div>
         </div>
     );
 }
 
-export default TopServiceSection;
+export default IntroSection;

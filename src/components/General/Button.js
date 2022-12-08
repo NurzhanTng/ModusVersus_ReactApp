@@ -1,9 +1,17 @@
 import React from 'react'
-import '../../css/Button.css'
+import '../../css/General/Button.css'
 
-function Button(prop) {
+function Button(props) {
+    const className = (typeof props.className === 'undefined') ? '' : ' ' + props.className;
+
     return (
-        <a onClick={(event) => event.preventDefault()} href="/" className='button'>{prop.text}</a>
+        <a
+            onClick={(event) => event.preventDefault()}
+            href="/new-app/src/components/Pages"
+            className={'button' + className}
+        >
+            {props.text}
+        </a>
     );
 }
 

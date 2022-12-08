@@ -1,19 +1,17 @@
 import React from 'react'
+import '../../../css/General/Sections/SecondSection.css'
 
-function OurTeamSection() {
+function SecondSection(props) {
     return (
-        <div className="out-team">
+        <div className="second-section">
             <div className="container">
-                <h3 className="our-team__title">Our Team</h3>
-                <div className="out-team__inner">
-                    <div className="out-team__item"></div>
-                    <div className="out-team__item"></div>
-                    <div className="out-team__item"></div>
-                    <div className="out-team__item"></div>
+                <h3 className="second-section__title">{props.title}</h3>
+                <div className="second-section__inner">
+                    {props.children}
                 </div>
             </div>
         </div>
     );
 }
 
-export default OurTeamSection;
+export default SecondSection;

@@ -1,8 +1,8 @@
 import React from "react";
-import ArrowUL from "./ArrowUL";
-import Skills from "./Skills";
-import ClientMessage from "./ClientMessage";
-import BrowserImage from '../../../../img/Browser_images.png'
+import ArrowUL from "../../General/ArrowUL";
+import Skills from "../../General/Skills";
+import ClientMessage from "../../General/ClientMessage";
+import BrowserImage from '../../../img/Browser_images.png'
 
 function AboutSection() {
     return (
