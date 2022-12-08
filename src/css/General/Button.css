@@ -1,0 +1,17 @@
+.button {
+    padding: 18px 25px;
+
+    border-radius: 5px;
+    background-color: #76c7c0;
+    box-shadow: 0 4px #62b9b0;
+
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1;
+}
+
+.button:hover {
+    background-color: #e8645a;
+    box-shadow: 0 4px #e2534b;
+}
